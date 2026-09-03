@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite both the dataset and the associated academic publication."
+title: "Anonymized Software Engineering Production Dataset"
+type: dataset
+version: "1.0"
+authors:
+  - family-names: "Héjja"
+    given-names: "Ferenc"
+    orcid: https://orcid.org/0009-0008-5770-5577
+
+  - family-names: "Sütő"
+      given-names: "József"
+      orcid: https://orcid.org/0000-0003-3155-5159
+
+  - family-names: "Bartók"
+      given-names: "Tamás"
+      orcid: https://orcid.org/0009-0005-3384-1919
+
+  - family-names: "Kocsis"
+      given-names: "Gergely"
+      orcid: https://orcid.org/0000-0003-0018-4201
+
+abstract: >-
+  An anonymized developer-level industrial software engineering dataset
+  containing aggregate Cycle Time and average Story Point delivery metrics,
+  developer seniority, and an operational AI-use classification.
+keywords:
+  - software engineering
+  - artificial intelligence
+  - AI-assisted software development
+  - cycle time
+  - story points
+  - software delivery
+  - empirical software engineering
+preferred-citation:
+  type: article
+  title: "The Effect of Generative Artificial Intelligence on Developer Productivity in the Software Industry"
+  authors:
+    - family-names: "REPLACE_WITH_FAMILY_NAME"
+      given-names: "REPLACE_WITH_GIVEN_NAME"
+    - family-names: "Héjja"
+      given-names: "Ferenc"
+    - family-names: "Sütő"
+      given-names: "József"
+    - family-names: "Bartók"
+      given-names: "Tamás"
+    - family-names: "Kocsis"
+      given-names: "Gergely"
+
+  journal: "REPLACE_WITH_JOURNAL_OR_CONFERENCE"
+  year: 2026
