@@ -1,51 +1,50 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite both the dataset and the associated academic publication."
-title: "Anonymized Software Engineering Production Dataset"
+message: "If you use this dataset, please cite the dataset and the associated academic paper."
+title: "Anonymized Software Engineering Production Dataset for Generative AI and Developer Productivity Research"
 type: dataset
 version: "1.0"
 authors:
   - family-names: "Héjja"
     given-names: "Ferenc"
-    orcid: https://orcid.org/0009-0008-5770-5577
-
+    orcid: "https://orcid.org/0009-0008-5770-5577"
+    affiliation: "Doctoral School of Informatics, University of Debrecen"
+    email: "hejja.ferenc@inf.unideb.hu"
   - family-names: "Sütő"
-      given-names: "József"
-      orcid: https://orcid.org/0000-0003-3155-5159
-
+    given-names: "József"
+    orcid: "https://orcid.org/0000-0003-3155-5159"
+    affiliation: "Department of Informatics Systems and Networks, Faculty of Informatics, University of Debrecen"
+    email: "suto.jozsef@inf.unideb.hu"
   - family-names: "Bartók"
-      given-names: "Tamás"
-      orcid: https://orcid.org/0009-0005-3384-1919
-
+    given-names: "Tamás"
+    orcid: "https://orcid.org/0009-0005-3384-1919"
+    affiliation: "EPAM Systems"
+    email: "tamas_bartok@epam.com"
   - family-names: "Kocsis"
-      given-names: "Gergely"
-      orcid: https://orcid.org/0000-0003-0018-4201
-
+    given-names: "Gergely"
+    orcid: "https://orcid.org/0000-0003-0018-4201"
+    affiliation: "Doctoral School of Informatics, University of Debrecen"
+    email: "kocsis.gergely@inf.unideb.hu"
 abstract: >-
   An anonymized developer-level industrial software engineering dataset
   containing aggregate Cycle Time and average Story Point delivery metrics,
-  developer seniority, and an operational AI-use classification.
+  developer seniority, and a study-specific active Generative AI usage
+  classification. The dataset accompanies the paper "The Effect of Generative
+  Artificial Intelligence on Developer Productivity in the Software Industry".
 keywords:
-  - software engineering
-  - artificial intelligence
-  - AI-assisted software development
-  - cycle time
-  - story points
-  - software delivery
-  - empirical software engineering
-preferred-citation:
-  type: article
-  title: "The Effect of Generative Artificial Intelligence on Developer Productivity in the Software Industry"
-  authors:
-    - family-names: "REPLACE_WITH_FAMILY_NAME"
-      given-names: "REPLACE_WITH_GIVEN_NAME"
-    - family-names: "Héjja"
-      given-names: "Ferenc"
-    - family-names: "Sütő"
-      given-names: "József"
-    - family-names: "Bartók"
-      given-names: "Tamás"
-    - family-names: "Kocsis"
-      given-names: "Gergely"
+  - "Generative Artificial Intelligence"
+  - "software engineering"
+  - "developer productivity"
+  - "cycle time"
+  - "story points"
+  - "empirical software engineering"
+  - "AI-assisted software development"
 
-  journal: "REPLACE_WITH_JOURNAL_OR_CONFERENCE"
-  year: 2026
+doi: "10.5281/zenodo.22279753"
+url: "https://doi.org/10.5281/zenodo.22279753"
+
+#
+# Add after the final GitHub repository is public:
+# repository-code: "https://github.com/OWNER/REPOSITORY"
+#
+# Add only after the final license is approved:
+# license: "CC-BY-4.0"
