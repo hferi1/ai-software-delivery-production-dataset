@@ -10,7 +10,7 @@
 
 ## Associated Academic Paper
 
-**The Effect of Generative Artificial Intelligence on Developer Productivity in the Software Industry**
+**The Effect of Generative Artificial Intelligence on Software Engineering Productivity in the Software Industry**
 
 **Authors:** Ferenc Héjja, József Sütő, Tamás Bartók, and Gergely Kocsis  
 
@@ -25,14 +25,14 @@
 
 ## Overview
 
-This repository provides the anonymized developer-level production dataset used in the empirical study reported in the associated paper.
+This repository provides the anonymized software engineer-level production dataset used in the empirical study reported in the associated paper.
 
-The study investigates the effect of Generative Artificial Intelligence (GenAI) on software developer productivity using industrial issue-tracking data. The analysis focuses on two core throughput metrics:
+The study investigates the effect of Generative Artificial Intelligence (GenAI) on software engineer productivity using industrial issue-tracking data. The analysis focuses on two core throughput metrics:
 
 - **Cycle Time (CT)**
 - **Story Points delivered (SP)**
 
-and compares developers classified as active AI users with a non-AI control group, including analyses by developer seniority.
+and compares software engineers classified as active AI users with a non-AI control group, including analyses by seniority.
 
 The public release is intended to support research transparency, reproducibility, replication, empirical software engineering research, AI-assisted software development research, and secondary statistical analysis.
 
@@ -54,21 +54,21 @@ The workbook contains:
 
 Production data originated from the **Rally issue-tracking system**.
 
-The underlying issue-tracking records included Story Points, Cycle Time, developer linkage, release/acceptance information and related task metadata.
+The underlying issue-tracking records included Story Points, Cycle Time, software engineer linkage, release/acceptance information and related task metadata.
 
 The methodology reports data across **24 iterations (sprints) split into 6 program increments**.
 
 The broader source collection ran from **17 July 2023 to 11 January 2025**. Because initial and final sprint records were incomplete, the paper's methodology narrows the primary 24-sprint analysis window to approximately one year, from **25 September 2023 to 21 September 2024**.
 
-The public `Data.xlsx` file is an aggregated developer-level representation of this production dataset.
+The public `Data.xlsx` file is an aggregated software engineer-level representation of this production dataset.
 
 ---
 
 ## Anonymization and Privacy
 
-The study reports that developer names, employer information, and other sensitive information were removed or obfuscated before analysis.
+The study reports that names, employer information, and other sensitive information were removed or obfuscated before analysis.
 
-The public dataset uses synthetic developer identifiers such as `Developer 1`.
+The public dataset uses synthetic identifiers such as `SW Engineer 1`.
 
 The release does not contain real employee names, corporate employee IDs, email addresses, usernames, customer names, project names, repository identifiers, source code, commit contents, ticket identifiers, or AI prompts/responses.
 
@@ -87,7 +87,7 @@ Important limitations include:
 3. Story Points are contextual rather than globally standardized units.
 4. AI-use status is categorical and does not quantify intensity of use.
 5. Seniority is unavailable for 12 released records.
-6. The public dataset contains aggregated developer-level metrics, so it cannot reproduce every sprint-level longitudinal analysis without the underlying sprint-level data.
+6. The public dataset contains aggregated software engineer-level metrics, so it cannot reproduce every sprint-level longitudinal analysis without the underlying sprint-level data.
 7. Observed AI/non-AI differences should not, by themselves, be interpreted as causal effects.
 
 The associated paper should be treated as the authoritative source for the study design, equations, filtering rules, statistical procedures, and interpretation.
@@ -104,11 +104,11 @@ The project was partially funded by the **KDP-2024 University Research Scholarsh
 
 ## How to Cite the Dataset
 
-> Héjja, F., Sütő, J., Bartók, T., & Kocsis, G. (2026). *Anonymized Software Engineering Production Dataset for Generative AI and Developer Productivity Research* (Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.22279753
+> Héjja, F., Sütő, J., Bartók, T., & Kocsis, G. (2026). *Anonymized Software Engineering Production Dataset for Generative AI and Software Engineering Productivity Research* (Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.22279753
 
 Also cite the associated paper:
 
-> Héjja, F., Sütő, J., Bartók, T., & Kocsis, G. *The Effect of Generative Artificial Intelligence on Developer Productivity in the Software Industry*. IEEE Access. [Final volume, pages and DOI to be added after publication.]
+> Héjja, F., Sütő, J., Bartók, T., & Kocsis, G. *The Effect of Generative Artificial Intelligence on Software Engineerin Productivity in the Software Industry*. IEEE Access. [Final volume, pages and DOI to be added after publication.]
 
 Machine-readable citation metadata is provided in `CITATION.cff`.
 
