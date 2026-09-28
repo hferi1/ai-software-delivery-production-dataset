@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this dataset, please cite the dataset and the associated academic paper."
-title: "Anonymized Software Engineering Production Dataset for Generative AI and Developer Productivity Research"
+title: "Anonymized Software Engineering Production Dataset for Generative AI and Software Engineering Productivity Research"
 type: dataset
 version: "1.0"
 authors:
@@ -25,15 +25,15 @@ authors:
     affiliation: "Doctoral School of Informatics, University of Debrecen"
     email: "kocsis.gergely@inf.unideb.hu"
 abstract: >-
-  An anonymized developer-level industrial software engineering dataset
+  An anonymized software engineer-level industrial software engineering dataset
   containing aggregate Cycle Time and average Story Point delivery metrics,
-  developer seniority, and a study-specific active Generative AI usage
+  seniority, and a study-specific active Generative AI usage
   classification. The dataset accompanies the paper "The Effect of Generative
-  Artificial Intelligence on Developer Productivity in the Software Industry".
+  Artificial Intelligence on Software Engineering Productivity in the Software Industry".
 keywords:
   - "Generative Artificial Intelligence"
   - "software engineering"
-  - "developer productivity"
+  - "productivity"
   - "cycle time"
   - "story points"
   - "empirical software engineering"
